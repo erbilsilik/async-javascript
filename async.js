@@ -82,7 +82,7 @@ window.ready(function() {
 
 window.ready(function() {
     // Javascipt promises help us to organize this callbacks!
-    // A promise represenet the action that hasn't finish yet but will do at the some point
+    // A promise represent the action that hasn't finish yet but will do at the some point
 
         function get(url) {
             return new Promise(function(resolve, reject) {
@@ -102,7 +102,7 @@ window.ready(function() {
             });
         }
 
-    // Promise is a placeholder that will something happeb in the future.
+    // Promise is a placeholder that will something happen in the future.
 
         var promise = get("data/tweets.json"); // This returns a promise
         promise.then(function(tweets) {
